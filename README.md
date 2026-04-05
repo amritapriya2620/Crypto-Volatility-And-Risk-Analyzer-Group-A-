@@ -82,9 +82,9 @@ streamlit run app.py
 The application calculates risk based on volatility metrics:
 
 - **🟢 Low Risk**: Volatility < 2%
-- **🟡 Low-Medium Risk**: Volatility 2-4%
-- **🟠 Medium Risk**: Volatility 4-8%
-- **🔴 High Risk**: Volatility > 8%
+- **🟡 Medium Risk**: Volatility 2-4%
+- **🟠 High Risk**: Volatility 4-8%
+- **🔴 Very High Risk**: Volatility > 8%
 
 ## Technical Details
 
