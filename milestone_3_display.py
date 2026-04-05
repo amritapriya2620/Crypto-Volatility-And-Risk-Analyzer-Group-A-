@@ -9,12 +9,12 @@ from data_engine import DataEngine
 from report_generator import CryptoReportGenerator
 
 def display_milestone_3():
-    """Display Milestone 3: Visualization and Dashboard Development"""
+    """Display Visualization and Dashboard Development"""
     
     st.markdown("""
     <div style='background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); 
                 padding: 20px; border-radius: 10px; margin-bottom: 20px; color: white;'>
-        <h2>📊 Milestone 3: Visualization and Dashboard Development</h2>
+        <h2>📊 Visualization and Dashboard Development</h2>
         <p>Interactive visualizations with advanced analytics and multi-crypto comparisons</p>
     </div>
     """, unsafe_allow_html=True)

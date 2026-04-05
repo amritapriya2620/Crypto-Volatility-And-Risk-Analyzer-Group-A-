@@ -12,11 +12,11 @@ import base64
 import io
 
 def display_milestone_4():
-    """Display Milestone 4: Risk Classification and Reporting"""
+    """Display Risk Classification and Reporting"""
     st.markdown("""
     <div style='background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); 
                 padding: 20px; border-radius: 10px; margin-bottom: 20px; color: white;'>
-        <h2>🎯 Milestone 4: Risk Classification and Reporting</h2>
+        <h2>🎯 Risk Classification and Reporting</h2>
         <p>Advanced risk classification, visual alerts, and comprehensive reporting system</p>
     </div>
     """, unsafe_allow_html=True)

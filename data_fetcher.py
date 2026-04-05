@@ -325,8 +325,8 @@ class DataFetcher:
             st.plotly_chart(chart, use_container_width=True)
 
 def display_milestone_1():
-    """Display Milestone 1: Data Acquisition dashboard"""
-    st.markdown("# 🎯 Milestone 1: Data Acquisition")
+    """Display Data Acquisition dashboard"""
+    st.markdown("# 🎯 Data Acquisition")
     
     # Initialize and display data fetcher
     fetcher = DataFetcher()

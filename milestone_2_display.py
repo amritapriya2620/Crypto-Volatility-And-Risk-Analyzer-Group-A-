@@ -7,12 +7,12 @@ import numpy as np
 from datetime import datetime
 
 def display_milestone_2():
-    """Display Milestone 2: Data Processing and Calculation"""
+    """Display Data Processing and Calculation"""
     
     st.markdown("""
     <div style='background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); 
                 padding: 20px; border-radius: 10px; margin-bottom: 20px; color: white;'>
-        <h2>📊 Milestone 2: Data Processing and Calculation</h2>
+        <h2>📊 Data Processing and Calculation</h2>
         <p>Advanced statistical analysis with log returns, volatility, Sharpe ratio, and beta calculations</p>
     </div>
     """, unsafe_allow_html=True)

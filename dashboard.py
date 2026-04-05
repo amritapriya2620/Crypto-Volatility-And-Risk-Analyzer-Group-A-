@@ -161,28 +161,28 @@ def dashboard():
     st.markdown(f'<p>Welcome back, {st.session_state.username}! 👋</p>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
     
-    # Main content area with milestone navigation
-    st.markdown("### 🎯 Select Analysis Milestone")
+    # Main content area with analysis navigation
+    st.markdown("### 🎯 Select Analysis Module")
     
-    milestone_tabs = st.tabs(["📊 Volatility Analysis", "🎯 Milestone 1: Data Acquisition", 
-                             "📈 Milestone 2: Data Processing", "🎨 Milestone 3: Visualization",
-                             "🎯 Milestone 4: Risk Classification"])
+    analysis_tabs = st.tabs(["📊 Volatility Analysis", "🔍 Data Acquisition", 
+                             "📈 Data Processing", "🎨 Visualization",
+                             "🎯 Risk Classification"])
     
-    with milestone_tabs[0]:
+    with analysis_tabs[0]:
         show_volatility_analysis()
     
-    with milestone_tabs[1]:
+    with analysis_tabs[1]:
         display_milestone_1()
     
-    with milestone_tabs[2]:
+    with analysis_tabs[2]:
         from milestone_2_display import display_milestone_2
         display_milestone_2()
     
-    with milestone_tabs[3]:
+    with analysis_tabs[3]:
         from milestone_3_display import display_milestone_3
         display_milestone_3()
     
-    with milestone_tabs[4]:
+    with analysis_tabs[4]:
         from milestone_4_display import display_milestone_4
         display_milestone_4()
     
